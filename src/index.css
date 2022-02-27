@@ -1,0 +1,88 @@
+body {
+  width: 40%;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+  height: 20%;
+  display: flex;
+  padding: 20px 36px;
+  align-items: center;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.hero-container{
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-container img{
+  max-width: 75%;
+  align-self: center;
+  margin: 1% 0;
+}
+
+.hero-container h1{
+  margin-left: 4%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+}
+
+.hero-container p{
+  margin: 0 4%;
+  width: 75%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+}
+
+.cards-container{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  overflow-x: auto;
+  margin: 4%;
+
+}
+
+.card-container{
+  width: 200px;
+  font-size: 12px;     /* ADD */
+  display: flex;          /* ADD */
+  flex-direction: column; /* ADD */
+  position: relative;
+}
+
+.card-img{
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+
+.card-title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.card-rating{
+  display: flex;
+    align-items: center;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
